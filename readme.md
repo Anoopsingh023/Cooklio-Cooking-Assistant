@@ -161,7 +161,7 @@ REDIS_URL =
 For the frontend, configure the API base URL 
 
 ```dotenv
-VITE_API_BASE_URL=http://localhost:5000/api
+base_url = http://localhost:5000/api/v1
 ```
 
 
