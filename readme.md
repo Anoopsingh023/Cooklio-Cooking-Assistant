@@ -141,7 +141,7 @@ npm install
 Create a `.env` file in the backend directory and configure the variables your application reads. A typical setup may look like this:
 
 ```dotenv
-PORT=4000
+PORT=
 MONGODB_URI=
 ACCESS_TOKEN_SECRET = 
 ACCESS_TOKEN_EXPIRY = 
