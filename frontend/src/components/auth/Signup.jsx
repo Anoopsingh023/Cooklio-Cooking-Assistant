@@ -386,7 +386,7 @@ function Signup() {
             {loading ? "Creating..." : "Create Account"}
           </button>
 
-          <GoogleLogin
+          {/* <GoogleLogin
             onSuccess={async (credentialResponse) => {
               try {
                 const res = await axios.post(
@@ -402,7 +402,7 @@ function Signup() {
               }
             }}
             onError={() => console.log("Login Failed")}
-          />
+          /> */}
 
           <Link
             to="/login"
