@@ -154,7 +154,7 @@ function Login() {
             Continue as Guest
           </Link>
 
-          <GoogleLogin
+          {/* <GoogleLogin
             onSuccess={async (credentialResponse) => {
               try {
                 const res = await axios.post(
@@ -170,7 +170,7 @@ function Login() {
               }
             }}
             onError={() => console.log("Login Failed")}
-          />
+          /> */}
 
           <div className="flex flex-col gap-3 text-white">
             <p className="text-2xl">For testing</p>{" "}
